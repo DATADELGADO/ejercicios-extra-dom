@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+article>div {
+    width: 600px;
+    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+
+input[type="submit"] {
+    padding: 5px;
+    width: 60px;
+}
+
+input[type="text"] {
+    border: solid 2px blue;
+}

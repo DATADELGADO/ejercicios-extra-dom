@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    width: 600px;
+}
+
+.image {
+    height: 400px;
+    background-image: url("pinpong.png");
+    border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.points {
+    padding-left: 20px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.players {
+    display: flex;
+}
+
+.players * {
+    box-sizing: border-box;
+    width: 33.33%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.players div:nth-child(1) {
+    background-color: blue;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.players * {
+    cursor: pointer;
+}
+
+.players div:nth-child(2) {
+    background-color: green;
+}
+
+.players div:nth-child(3) {
+    background-color: red;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.counter,
+.counter * {
+    display: inline;
+    font-size: 30px;
+    font-weight: 600;
+}
